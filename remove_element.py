@@ -10,7 +10,7 @@ class Solution(object):
         return len(nums)
 
 """
-I hope I helped you in some way. If you like this solution, I'll be very happy if you click "Star" on Github:
+ I hope I helped you in some way. If you like this solution, I'll be very happy if you click "Star" on Github:
 https://github.com/JBielan/leetcode-python
 
 May the code be with you!
