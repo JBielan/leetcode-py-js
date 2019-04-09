@@ -6,7 +6,7 @@ class Solution:
         if n == 2:
             return "11"
 
-        current = "11"                      # If function wasn't returned yet, current is "11" and it's at least step 3
+        current = "11"      # If function wasn't returned yet, current is "11" and it's at least step 3
         for _ in range(1, n - 1):           # "_" is variable we won't use. The only thing is to get n-2 steps
             count = 1                       # There will be at least one occurrence
             new_string = ""                 # Another variable needed to not operate directly on current
