@@ -15,4 +15,5 @@ As well feel free to follow my account for daily coding solutions and machine-le
 https://github.com/JBielan
 
 May the code be with you!
+
 """
