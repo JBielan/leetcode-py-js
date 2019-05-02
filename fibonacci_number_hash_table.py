@@ -5,3 +5,8 @@ class Solution:
         46368, 75025, 121393, 196418, 317811, 514229, 832040)
 
         return fib[N]
+
+    '''
+    Generally the more bigger numbers are checked, the better this solution will be. For the matter of Leetcode
+    challenge, is almost simmilar when it comes to execution time. For N >30 it will be much faster. 
+    '''
