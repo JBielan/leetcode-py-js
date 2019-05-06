@@ -22,4 +22,5 @@ class Solution:
 		for key in count:
 			result.append("{} {}".format(count[key], key))      # put the number of visits together with subdomain and add it to the results
 
+
 		return result
