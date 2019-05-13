@@ -19,3 +19,4 @@ class Solution:
             current = current.next  # go further at every step as long as you reach middle node
 
         return current  # return this node
+
