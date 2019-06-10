@@ -4,4 +4,5 @@ class Solution:
 		for i in range(len(binary)):        # iterate through binary list
 			binary[i] = str(abs(int(binary[i]) - 1))        # exchange 0s and 1s and get back to (list of) strings
 
+
 		return int(''.join(binary), 2)      # return int representation of a binary string (list has been joined)
