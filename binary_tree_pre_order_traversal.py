@@ -47,4 +47,5 @@ root.insert(10)
 root.insert(19)
 root.insert(31)
 root.insert(42)
+
 print(root.inorderTraversal(root))
