@@ -38,6 +38,8 @@ class Node:
             res = self.inorderTraversal(root.left)
             res.append(root.val)
             res = res + self.inorderTraversal(root.right)
+
+        print(res)
         return res
 
 root = Node(27)
@@ -47,5 +49,4 @@ root.insert(10)
 root.insert(19)
 root.insert(31)
 root.insert(42)
-
 print(root.inorderTraversal(root))
