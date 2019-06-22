@@ -6,4 +6,4 @@ class Solution(object):
                 arr.insert(i, 0)        # insert 0 along to it
                 arr.pop(-1)     # remove last element
                 i += 1      # go to the next element - after adding index has to be increased by 2
-            i += 1      # check next element
+            i += 1      # check next element=`\\\\\\\\\

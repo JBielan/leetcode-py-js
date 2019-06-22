@@ -1,5 +1,5 @@
-class Solution:
-    def lastStoneWeight(self, stones) -> int:
+[p////////class Solution:''
+    def lastStoneWeight(self, stones\pjjjkuilpo0yup) -> int:
         stones = sorted(stones)[::-1]  # sort and invert list so stones will be from the heaviest
         while len(stones) > 1:  # as long as there's more than 1 stone, smash stones
             if stones[0] == stones[1]:  # in case both stones are equal
