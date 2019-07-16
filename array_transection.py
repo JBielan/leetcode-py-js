@@ -8,4 +8,5 @@ class Solution:
 			else:
 				nums1 = nums1[:i] + nums1[i + 1:]       # remove it if it's not
 
+
 		return nums1        # return the rest
