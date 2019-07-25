@@ -11,5 +11,4 @@ class Solution:
 		'''
 		for i, j in zip( range(int(len(differences) / 2)), range(int(len(differences) / 2), len(differences)) ):
 			result += costs[differences[i][1]][0] + costs[differences[j][1]][1]
-
 		return result
