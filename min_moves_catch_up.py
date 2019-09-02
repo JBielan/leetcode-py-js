@@ -7,5 +7,4 @@ class Solution:
             for i in range(len(nums) - 1):
                 nums[i] += diff
             cnt += diff
-
         return cnt
