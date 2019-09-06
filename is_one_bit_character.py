@@ -15,7 +15,6 @@ class Solution:
                 bits = bits[1:]
             elif bits[:2] == [1, 0] or bits[:2] == [1, 1]:
                 bits = bits[2:]
-
         if bits == [1, 1] or bits == [1, 0]:
             return False
         else:
