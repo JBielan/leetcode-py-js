@@ -15,4 +15,5 @@ class Solution:
 		[::-1] inverts the result
 		+ [-1] adds -1 in the end
 		'''
+
 		return res[:-1][::-1] + [-1]
